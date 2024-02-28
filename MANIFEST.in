@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include iot_erpnext *.css
+recursive-include iot_erpnext *.csv
+recursive-include iot_erpnext *.html
+recursive-include iot_erpnext *.ico
+recursive-include iot_erpnext *.js
+recursive-include iot_erpnext *.json
+recursive-include iot_erpnext *.md
+recursive-include iot_erpnext *.png
+recursive-include iot_erpnext *.py
+recursive-include iot_erpnext *.svg
+recursive-include iot_erpnext *.txt
+recursive-exclude iot_erpnext *.pyc
